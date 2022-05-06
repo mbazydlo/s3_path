@@ -5,7 +5,7 @@ import re
 
 class S3Path:
     S3_SUFFIX = 's3://'
-e
+
     def __init__(self, full_path=None, *, bucket: str = '', key: str = ''):
         if full_path:
             self.split_path(full_path)
